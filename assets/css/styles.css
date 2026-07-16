@@ -65,12 +65,25 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
+  gap: 10px;
   min-width: 0;
+  color: var(--white);
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .brand img {
-  width: 168px;
-  height: auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand span {
+  color: var(--white);
+  font-size: 0.98rem;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .main-nav {
@@ -666,7 +679,15 @@ h1 {
   }
 
   .brand img {
-    width: 122px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .brand span {
+    max-width: 92px;
+    white-space: normal;
+    font-size: 0.78rem;
+    line-height: 0.95;
   }
 
   .header-cta {
