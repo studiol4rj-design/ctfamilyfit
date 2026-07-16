@@ -530,14 +530,34 @@ h1 {
   background: var(--black);
 }
 
-.site-footer div:first-child {
+.footer-contact {
   display: grid;
   gap: 6px;
 }
 
-.site-footer span,
+.footer-contact span,
+.footer-contact a,
 .footer-links a {
   color: rgba(255, 255, 255, 0.68);
+}
+
+.footer-contact span,
+.footer-contact a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-contact svg {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 auto;
+  fill: var(--yellow);
+}
+
+.footer-contact a:hover,
+.footer-contact a:focus-visible {
+  color: var(--yellow);
 }
 
 .footer-links {
