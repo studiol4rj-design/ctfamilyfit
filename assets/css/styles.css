@@ -600,12 +600,14 @@ h1 {
 
 .footer-legal {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 18px;
   padding-top: 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   color: rgba(255, 255, 255, 0.52);
   font-size: 0.86rem;
+  text-align: center;
 }
 
 .footer-legal a {
@@ -750,8 +752,7 @@ h1 {
     padding: 48px 18px 72px;
   }
 
-  .footer-main,
-  .footer-legal {
+  .footer-main {
     display: grid;
   }
 
