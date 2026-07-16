@@ -61,23 +61,12 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   min-width: 0;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0;
 }
 
 .brand img {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  object-fit: cover;
-  background: var(--white);
-}
-
-.brand span {
-  white-space: nowrap;
+  width: 168px;
+  height: auto;
 }
 
 .main-nav {
@@ -604,8 +593,8 @@ h1 {
     padding: 0 14px;
   }
 
-  .brand span {
-    display: none;
+  .brand img {
+    width: 122px;
   }
 
   .header-cta {
