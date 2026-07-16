@@ -563,23 +563,6 @@ h1 {
   color: var(--yellow);
 }
 
-.floating-whatsapp {
-  position: fixed;
-  right: 18px;
-  bottom: 18px;
-  z-index: 18;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 52px;
-  padding: 0 18px;
-  border-radius: 999px;
-  color: var(--black);
-  background: var(--yellow);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
-  font-weight: 900;
-}
-
 @media (max-width: 980px) {
   .site-header {
     grid-template-columns: auto auto;
@@ -696,11 +679,5 @@ h1 {
 
   .site-footer {
     display: grid;
-    padding-bottom: 86px;
-  }
-
-  .floating-whatsapp {
-    right: 12px;
-    bottom: 12px;
   }
 }
